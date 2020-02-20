@@ -30,7 +30,8 @@ README.txt
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second
 
 
-###Objectives and information in the script
+### Objectives and information in the script
+
 **1.	Merges the training and the test sets to create one data set**
 Loaded the files. Some names of columns were changed before the merge
 Then merge them with the cbind() and rbind() function.
