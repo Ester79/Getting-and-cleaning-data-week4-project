@@ -10,23 +10,27 @@ here we can find the description of the dataset http://archive.ics.uci.edu/ml/da
 
 
 **The data set have included these files**
-'README.txt'
-'features_info.txt': Shows information about the variables used on the feature vector.
-'features.txt': List of all features.
-'activity_labels.txt': Links the class labels with their activity name.
-'train/X_train.txt': Training set.
-'train/y_train.txt': Training labels.
-'test/X_test.txt': Test set.
-'test/y_test.txt': Test labels.
+
+README.txt
+
+- 'features_info.txt': Shows information about the variables used on the feature vector.
+- 'features.txt': List of all features
+- 'factivity_labels.txt': Links the class labels with their activity name
+- 'train/X_train.txt': Training set
+- 'train/y_train.txt': Training labels
+- 'test/X_test.txt': Test set
+- 'test/y_test.txt': Test labels
+
 
 **Description of each file**
-'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
-'train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt' and 'total_acc_z_train.txt' files for the Y and Z axis.
-'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration.
-'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.
+
+- 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30
+- 'train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt' and 'total_acc_z_train.txt' files for the Y and Z axis.
+- 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration.
+- 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second
 
 
-####**Objectives and information of in the script**
+###Objectives and information in the script
 **1.	Merges the training and the test sets to create one data set**
 Loaded the files. Some names of columns were changed before the merge
 Then merge them with the cbind() and rbind() function.
